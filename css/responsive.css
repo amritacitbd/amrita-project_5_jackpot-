@@ -1,0 +1,711 @@
+
+
+
+@media (max-width:1399px){
+    nav .cta-btn{
+        position: absolute;
+        top:70px;
+        right: 80px !important;
+    }
+}
+
+
+
+@media (max-width:1199px){
+
+    nav .cta-btn{
+        position: absolute;
+        top:120px;
+        right: 200px !important;
+    }
+     /*=========================
+        navbar css ends 
+    =========================*/
+
+    
+    #banner .banner-image img{
+        width: 90%;
+        margin-left: 0.5px;
+    }
+
+    #banner .banner-text{
+        padding-top: 85px;
+    }
+
+    #banner .banner-text h5{
+       padding-top: 5px;
+       padding-bottom: 25px;
+    }
+
+    #banner .banner-text h1{
+        padding-top: 85px;
+        font-size: 260px;
+    }
+
+    #banner .banner-text p{
+        margin-left: 5px !important;
+        margin-right: 10px !important;
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    #banner .banner-text .cta-btn{
+        margin-left: 90px;
+    }
+    /*=========================
+        banner css ends 
+    =========================*/
+
+ 
+    #game .game-image{
+        margin-bottom: 10px;
+    }
+
+    #game .game-image .image-overlay h4{
+        margin-top: 90px !important;
+    }
+
+    #game .game-image .btn{
+        margin-left:-22px !important;
+        box-shadow: none !important;
+        padding:10px 40px !important;
+    }
+    /*=========================
+         game css ends 
+    =========================*/
+    
+
+
+    #spin .spin-text {
+        margin-left: 0px !important;
+    }
+
+    #spin .spin-image{
+        margin-top: 20px !important;
+    }
+
+    #spin .spin-text h1{
+        margin-top: 50px !important;
+    }
+    /*=========================
+        spin css ends 
+    =========================*/
+
+
+    #price{
+        padding-bottom: 90px;
+    }
+
+    #price .price-item .cta-btn .btn{
+    background: linear-gradient(#9e4efc, #5b11cb);
+    padding:0px 35px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    margin-top: 55px;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    }
+    /*=========================
+        price css ends 
+    =========================*/
+
+
+    #subscribtion form input{
+        width: 370px;
+    } 
+
+    #subscribtion form button{
+        width: 45px;    
+    }
+
+    #subscribtion .payment-item header h1{
+        margin-left: 0px !important;
+    }
+    
+    #subscribtion .visacard-image{
+        margin-left: 0px
+    }
+    /* ======================
+        subscribtion css end
+    =========================*/
+
+
+    footer .text p{
+        margin-right: 80px;
+    }
+    /* ======================
+        footer css end
+    =========================*/
+}  
+    /* =============================
+        large device  css ends
+    ================================*/
+
+
+
+
+
+    @media (max-width:991px){
+
+        .navbar .navbar-toggler{
+            margin-top:60px;
+            margin-right: 20px;
+        }
+    
+        .navbar-toggler{
+            border-color:#ff39dc !important;
+            border: 2px solid;
+        }
+    
+         .navbar-toggler i{
+            color:#5b11cb !important;
+        }
+    
+         .navbar-toggler:focus{
+            box-shadow: none;
+        }
+    
+        .navbar .navbar-nav{
+            margin-top: 10px;
+            position: absolute;
+            top: 85%;
+            right: 0;
+            z-index: -1;
+            width: 100%;
+            height: 320px;
+            background-color: rgba(36, 39, 38, 0.5);
+        }
+         
+        .navbar-nav .nav-item .nav-link {
+            text-align: center;
+            transition: all linear 0.4s !important;
+            color: #ffffff !important;
+        }
+         .navbar-nav .nav-item .nav-link:hover{
+            background-color: #f873e0 !important;
+        }
+    
+        nav .cta-btn{
+            position: absolute;
+            top:430px !important;
+            right: 400px !important;
+        }
+        /*=========================
+            navbar css ends 
+        =========================*/
+    
+    
+        #banner .banner-image img{
+            width: 100%;
+            margin-left: 0.5px;
+        }
+    
+        #banner .banner-text{
+            margin-top: -148px;
+        }
+    
+        #banner .banner-text h5{
+            margin-left: 300px;
+        }
+    
+        #banner .banner-text h1{
+            margin-left: 180px;
+        }
+    
+        #banner .banner-text p{
+            line-height: 16px;
+            margin-top: -30px;
+            margin-left:150px !important;
+            margin-right: 80px !important;
+        }
+    
+        #banner .banner-text .cta-btn{
+            margin-left: 300px;
+        }
+        /*=========================
+            banner css ends 
+        =========================*/
+
+
+        #game .game-image{
+            padding-bottom: 60px !important;
+        }
+
+        #game .game-image .image-overlay{
+            height: 205px !important;
+        }
+
+        #game .game-image .image-overlay h4{
+            font-size: 20px !important;
+            margin-top: 50px !important;
+        }
+        #game .game-image .btn{
+            margin-left:-40px !important;
+            margin-top: -40px !important;
+            box-shadow: none !important;
+        } 
+        /*=========================
+             game css ends 
+        =========================*/
+    
+        #spin .spin-image{
+            margin-top: 50px !important;
+        }
+    
+        #spin .spin-text h1{
+            margin-top: 50px !important;
+        }
+        /*=========================
+            spin css ends 
+        =========================*/
+
+        #game{
+            padding-bottom: 0px !important;
+        }
+        #game .game-image{
+            margin-bottom: 10px;
+        }
+    
+        #game .game-image .btn{
+            margin-left:185px;
+            box-shadow: none !important;
+        }
+        /*=========================
+             game css ends 
+        =========================*/
+
+
+        #price .price-item .cta-btn .btn{
+            background: linear-gradient(#9e4efc, #5b11cb);
+            padding:0px 50px !important;
+            box-shadow: 0px 6px 1px 0px #3a0090;
+            border: none;
+             margin-top: 55px;
+            position: absolute;
+            top: 210px;
+            left: 50%;
+            transform: translateX(-50%);
+            visibility: hidden;
+            opacity: 0;
+        }
+
+        #price .price-item:hover .price-head, 
+        #price .price-item:hover .cta-btn .btn{
+            background: linear-gradient(#ff39dc, #bd0e9a);
+            box-shadow: 0px 6px 1px 0px #661466;
+            visibility: visible;
+            opacity: 1;
+        }
+        /*=========================
+             price css ends 
+        =========================*/ 
+
+        
+        #subscribtion form input{
+            width: 250px !important;
+        }
+    
+        #subscribtion form button{
+            width: 45px;    
+        }
+    
+        #subscribtion .payment-item header h1{
+            margin-left: 0px !important;
+        }
+        
+        #subscribtion .visacard-image{
+            margin-left: 0px
+        }
+
+        #subscribtion .visacard-image img{
+            margin-right: 2px;
+        }
+        #subscribtion .visacard-image img:last-of-type{
+            margin-right: 0px;
+        }
+        /* ======================
+            subscribtion css end
+        =========================*/
+
+
+        footer .icon {
+            padding-bottom: 20px;
+        }
+         /* ======================
+            footer css end
+        =========================*/
+        }       
+     /* =============================
+         Medium device  css ends
+        ============================*/
+
+
+    
+        @media(max-width:767px){
+
+            .navbar .navbar-toggler{
+                margin-top:70px;
+                margin-right: 20px;
+            }
+        
+            .navbar-light .navbar-toggler{
+                border-color:#ff39dc !important;
+                border: 2px solid;
+            }
+        
+            .navbar-light .navbar-toggler i{
+                color:#5b11cb !important;
+            }
+        
+            .navbar-light .navbar-toggler:focus{
+                box-shadow: none;
+            }
+        
+        
+            .navbar .navbar-nav{
+                margin-top: 10px;
+                position: absolute;
+                z-index: -1;
+                width: 100%;
+            }
+        
+            .navbar-light .navbar-nav .nav-item .nav-link {
+                margin-inline-start:200px;
+                transition: all linear 0.4s !important;
+            }
+        
+            .navbar-light .navbar-nav .nav-item .nav-link {
+                color: #ffffff !important;
+            }
+        
+            nav .cta-btn{
+                position: absolute;
+                top:440px !important;
+                right: 260px !important;
+            }
+            /*=================
+                navber css ends
+            ===================*/
+        
+        
+            #banner .banner-image img{
+                width: 100%;
+                margin-left: 0.5px;
+            }
+        
+            #banner .banner-text{
+                margin-top: -170px;
+            }
+        
+            #banner .banner-text h5{
+                margin-left: 210px ;
+            }
+        
+            #banner .banner-text h1{
+                margin-left: 80px ;
+            }
+        
+            #banner .banner-text p{
+                margin-left: 40px !important;
+                margin-right: 20px !important;
+            }
+        
+            #banner .banner-text .cta-btn{
+                margin-left: 200px;
+            }
+            /*=========================
+                banner css ends 
+            =========================*/
+
+
+        
+            #game{
+                padding-bottom: 0px !important;
+            }
+            #game .game-image{
+                margin-bottom: 10px;
+                padding-bottom: 50px !important;
+            }
+
+            #game .game-image .image-overlay h4{
+                font-size: 16px !important;
+                margin-top: 50px !important;
+                
+            }
+        
+            #game .game-image .btn{
+                margin-left:20px;
+                margin-top: -40px !important;
+                padding: 0px 20px !important;
+                box-shadow: none !important;
+            }
+
+            /*=========================
+                 game css ends 
+            =========================*/
+        
+        
+            #spin .spin-image{
+                margin-top: 50px !important;
+            }
+        
+            #spin .spin-text h1{
+                margin-top: 50px !important;
+            }
+            /*=========================
+                spin css ends 
+            =========================*/
+        
+            #faq{
+                padding-bottom: 70px;
+            }
+        
+            #faq header h1{
+                text-align: center;
+            }
+        
+            #faq header h1{
+                margin-top: 30px !important;
+            }
+        
+            #faq .accordion .accordion-button i{
+                position: absolute;
+                top: 15px;
+                right: 30px;
+            }
+        
+            #faq #scroll-item{
+                margin-top: 90px; 
+                max-height: 300px;  
+             }
+             
+             #faq #scroll-item ul li{
+                 margin-bottom: 20px;
+                 padding-bottom: 20px;
+                 border-bottom: 1px solid #290a59;
+                 box-sizing: border-box;
+             } 
+             
+             #faq .scrollbox-bar{
+                 background: #1f004f !important;
+                 width: 10px !important;
+                 height: 50px !important;
+                 right: -60px;
+                 border-radius: 10px;
+                 -webkit-border-radius: 10px;
+                 -moz-border-radius: 10px;
+                 -ms-border-radius: 10px;
+                 -o-border-radius: 10px;
+             }
+             
+             #faq .scrollbox-vertical-rail{
+                 width: 2px;
+                 background: #000 !important;
+                 opacity: 1;
+                 right: -55px;
+             }
+            /*=========================
+                faq css ends 
+            =========================*/
+    
+            }  
+        /* =============================
+             small device  css ends
+         ===============================*/
+
+    @media (max-width:575px){
+
+        .navbar .navbar-toggler{
+            margin-top:60px;
+            margin-right: 20px;
+        }
+
+        .navbar-light .navbar-toggler{
+            border-color:#ff39dc !important;
+            border: 2px solid;
+        }
+
+        .navbar-light .navbar-toggler i{
+            color:#5b11cb !important;
+        }
+
+        .navbar-light .navbar-toggler:focus{
+            box-shadow: none;
+        }
+
+        .navbar .navbar-nav{
+            margin-top: 10px;
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            background-color: rgba(36, 39, 38, 0.5);
+        }
+
+        .navbar-light .navbar-nav .nav-item .nav-link {
+            text-align: center;
+            transition: all linear 0.4s !important;
+            
+        }
+
+        .navbar-light .navbar-nav .nav-item .nav-link {
+            color: #ffffff !important;
+        }
+
+        nav .cta-btn{
+            position: absolute;
+            top:440px !important;
+            right: 160px !important;
+        }
+        /*=========================
+            navbar css ends 
+        =========================*/
+
+
+        #banner .banner-image img{
+            width: 100%;
+            margin-left: 0.5px;
+        }
+
+        #banner .banner-text{
+            margin-top: -180px;
+        }
+
+        #banner .banner-text h5{
+            margin-left: 220px !important;
+        }
+
+        #banner .banner-text h1{
+            margin-left: 90px !important;
+        }
+
+        #banner .banner-text p{
+            margin-left: 50px !important;
+        }
+
+        #banner .banner-text .cta-btn{
+            margin-left: 200px;
+        }
+        /*=========================
+            banner css ends 
+        =========================*/
+
+
+
+        #game{
+            padding-bottom: 0px !important;
+        }
+        #game .game-image{
+            margin-bottom: 10px;
+        }
+        #game .game-image .btn{
+            margin-left:205px;
+            box-shadow: none !important;
+        }
+        /*=========================
+            game css ends 
+        =========================*/
+
+
+        
+        #spin .spin-image{
+            margin-top: 50px !important;
+        }
+
+        #spin .spin-text h1{
+            margin-top: 50px !important;
+            margin-left: 50px !important;
+        }
+
+        #spin .spin-text p{
+            margin-left: 50px !important;
+            margin-right: 50px !important;
+        }
+
+        #spin .spin-text .btn{
+            margin-left: 200px !important;
+        }
+        
+        /*=========================
+            spin css ends 
+        =========================*/
+        }
+
+
+        #price h1{
+            padding-top: 30px !important;
+        }
+
+        #price .price-item{
+            padding-top: 35px;
+        }
+
+        #price .price-item .price-btn .btn{
+            padding: 5px 30px !important;
+        }
+        /*=========================
+            price css ends 
+        =========================*/
+
+
+        #faq header h1{
+            text-align: center;
+        }
+
+        #faq header h1{
+            margin-top: 30px !important;
+        }
+
+        #faq .scrollbox-bar{
+            background: #1f004f !important;
+            width: 10px !important;
+            height: 50px !important;
+            right: -3px !important; 
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            -ms-border-radius: 10px;
+            -o-border-radius: 10px;
+        }
+        
+        #faq .scrollbox-vertical-rail{
+            width: 2px;
+            background: #000 !important;
+            opacity: 1;
+            right: -0.15px !important ;
+        }
+        /*=========================
+            faq css ends 
+        =========================*/
+
+
+        #subscribtion .payment-item header h1{
+            margin-left: 0px !important;
+        }
+        
+        #subscribtion .visacard-image{
+            margin-left: 0px
+        }
+        /* ======================
+            subscribtion css end
+        =========================*/
+
+
+        footer .security-item{
+            padding-bottom: 5px !important;
+        }
+         /* ======================
+            footer css end
+        =========================*/
+
+/* =============================
+    extra small device  css ends
+================================*/
+
+
+
+
+
+
+ 

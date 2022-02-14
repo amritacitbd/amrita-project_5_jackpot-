@@ -1,0 +1,776 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Nunito:wght@0,300;0,400;0,500;0,700;1,700&display=swap');
+
+:root{
+    --background-image: linear-gradient(#ff39dc, #bd0e9a);
+    --ff1:'Nunito', sans-serif;
+    --ff2:'Anton', sans-serif;
+    --bg1:#100424;
+    --bg2:#19023d;
+    --hc:#bd0e9a;
+    --fc1:#9e4efc;
+    --over8:rgba(0, 0, 0, 0.8);
+    
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+/* ===============
+common css end
+=================== */
+
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.fs-32{
+    font-size: 32px;
+}
+
+.fs-40{
+    font-size: 40px; 
+}
+
+.fs-48{
+    font-size: 48px;
+}
+
+.fs-50{
+    font-size: 32px;
+}
+
+.fs-330{
+    font-size: 330px;
+}
+/* ===============
+font-size css end
+=================== */
+
+
+.nun-reg{
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+
+.nun-semib{
+    font-family: var(--ff1);
+    font-weight: 600;
+}
+
+.nun-mid{
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+
+.nun-bold{
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+
+.ant-reg{
+    font-family: var(--ff2);
+    font-weight: 400;
+}
+/* ===============
+typography css end
+=================== */
+nav{
+    position: relative;
+}
+
+.nav-fix{
+    background: #f7f4f7;
+    opacity: 0.8;
+}
+
+.navbar{
+    position: fixed;
+    top: 5px;
+    right: 0;
+    z-index: 99999;
+}
+
+.navbar .navbar-nav{
+    margin-top: 70px;
+    margin-left: 100px;
+}
+
+ .navbar-nav .nav-item .nav-link{
+    line-height: 50px;
+    
+    box-sizing: border-box;
+    color: var(--fc1);
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+.navbar-nav .nav-item .nav-link {
+    padding-right: 50px !important;
+}
+
+ .navbar-nav .nav-item:last-of-type{
+    padding-right: 0 !important;
+}
+
+ .navbar-nav .nav-link:hover{
+    color: var(--hc);
+}
+
+nav .cta-btn{
+    position: absolute;
+    top:70px;
+    right: 380px;
+}
+
+
+nav .cta-btn a{
+    background:linear-gradient(#9e4efc, #5b11cb);
+    line-height: 50px;
+    padding: 0 30px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+    margin-left: 25px;
+}
+
+nav .cta-btn a:hover{
+    background: linear-gradient(#ff39dc, #bd0e9a);
+    box-shadow: 0px 6px 1px 0px #661466;
+} 
+ 
+/* ===================
+    navbar css end
+=================== */
+
+
+#banner{
+    background: #200250;
+    padding-bottom: 170px;
+}
+
+#banner .banner-image img{
+    margin-left: -90px;
+    margin-top: 170px;
+    width: 100%;
+}
+
+#banner .banner-text{
+    padding-top: 140px;
+}
+
+#banner .banner-text h5{
+    margin-top: 130px;
+}
+
+#banner .banner-text h1{
+    background: linear-gradient(to top, #FCB100 0%, #E07E1E 50%, #FDB125 57%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -52px;
+    margin-left: -8px;
+}
+
+#banner .banner-text p{
+    line-height: 26px;
+    margin-top: -30px;
+    margin-left:17px;
+    margin-right: 44px;
+}
+
+#banner .banner-text .cta-btn{
+    background: linear-gradient(#9e4efc, #5b11cb);
+    padding:10px 30px ;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+/* ===================
+    banner css end
+======================*/
+
+
+#feature .feature-main{
+    transform: translateY(-50%);
+    border-top-left-radius: 5px !important;
+}
+#feature .feature-item{
+    background: linear-gradient(#5b11cb, #7a0ff5);
+    padding-top: 53px;
+    padding-bottom: 40px;
+    box-shadow: 5px 10px 50px #2c015e;
+}
+
+
+#feature .feature-item h1{
+    background: linear-gradient(to top, #E07E1E 0%, #FDB125 55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -34px;
+}
+
+#feature .feature-item h3{
+    margin-top: 20px;
+}
+
+#feature .feature-item p{
+    margin-top: 15px;
+}
+/* ===================
+    feature css end
+======================*/
+
+
+#game{
+    background: #100424;
+    margin-top: -195px;
+    padding-bottom:55px;
+}
+
+#game header h1{
+    padding-top: 170px;
+
+    padding-bottom: 60px !important;
+    background: linear-gradient(to top, #cc6d0e 0%, #c59628 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#game .game-image .image-overlay{
+    background: var(--over8);
+    visibility: hidden;
+    opacity: 0;
+    transition: all linear 0.5s;
+    
+}
+
+#game .game-image:hover .image-overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+#game .game-image .image-overlay h4{
+    margin-top: 165px;
+}
+
+#game .game-image a{
+    background: linear-gradient(#9e4efc, #5b11cb);
+    padding:10px 30px !important;
+    border: none;
+}
+
+#game .game-image .btn{
+    position: absolute;
+    left:32% !important;
+    top: 60% !important;
+    border: none;
+}
+#game .game-image .btn-outline-light:focus, 
+#game .game-image .btn:focus{
+	box-shadow: none !important;
+}
+
+/* ===================
+   game css end
+======================*/
+
+
+
+
+#spin{
+    background: #200250;
+    padding-bottom: 138px;
+}
+
+#spin .spin-image{
+    margin-top: 100px !important;
+}
+
+#spin .spin-image .spin-image1{
+    position: absolute;
+    top: 317px;
+
+}
+
+#spin .spin-image .spin-image2{
+    position: absolute;
+    top: 404px;
+    left: 43px;
+
+}
+
+#spin .spin-text {
+    margin-left: 80px;
+}
+
+#spin .spin-text h1{
+    background: linear-gradient(to top, #cc6d0e 0%, #c59628 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 200px !important;
+}
+
+#spin .spin-text p{
+    margin-top: 55px !important;
+    line-height: 26px;
+    margin-right: 93px;
+}
+
+#spin .spin-text p:last-of-type{
+    margin-top: 30px !important;
+}
+
+#spin .spin-text .btn{
+    background: linear-gradient(#9e4efc, #5b11cb);
+    padding:10px 30px !important ;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+    margin-top: 55px;
+    transition: all linear 0.5s;
+}
+
+#spin .spin-text .btn:hover{
+    background: linear-gradient(#ff39dc, #bd0e9a);
+    box-shadow: 0px 6px 1px 0px #661466;
+}
+
+/* ===================
+   spin css end
+======================*/
+
+
+
+#price{
+    background: #100424;
+    padding-bottom: 60px;
+}
+
+#price h1{
+    background:linear-gradient(to top, #cc6d0e 0%, #c59628 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 100px;
+}
+
+#price .price-item .price-head{
+    background:  linear-gradient(to top, #8d4bf0 0%, #ab6af7 50%);
+    border-bottom: 3px solid #2c0558;
+    box-sizing: border-box;
+    padding: 16px 0 ;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#price .price-item{
+    padding-top: 65px;
+    transition: all linear 0.5s;
+    -webkit-transition: all linear 0.5s;
+    -moz-transition: all linear 0.5s;
+    -ms-transition: all linear 0.5s;
+    -o-transition: all linear 0.5s;
+}
+
+#price .price-item .price{
+    background:  linear-gradient(to top, #8d4bf0 0%, #ab6af7 50%);
+    padding-bottom: 28px;
+    border-bottom: 3px solid #363636;
+    box-sizing: border-box;
+}
+
+#price .price-item .price h2{
+    padding-top: 60px ;
+}
+
+#price .price-item .price h4{
+    padding-top: 15px ;
+}
+
+#price .price-item .price p{
+    padding-top: 15px ;
+}
+
+#price .price-item .price-feature{
+    background: linear-gradient(to top, #7a2af3 0%, #7c2df3 50%, #9e4efc 75%);
+    padding-bottom: 60px;
+}
+
+#price .price-item .price-feature ul li{
+    padding-top: 15px;
+}
+
+#price .price-item .cta-btn .btn{
+    background: linear-gradient(#9e4efc, #5b11cb);
+    padding:0px 45px !important;
+    box-shadow: 0px 6px 1px 0px #3a0090;
+    border: none;
+     margin-top: 66px;
+    position: absolute;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+}
+
+#price .price-item:hover .price-head, 
+#price .price-item:hover .cta-btn .btn{
+    background: linear-gradient(#ff39dc, #bd0e9a);
+    box-shadow: 0px 6px 1px 0px #661466;
+    visibility: visible;
+    opacity: 1;
+}
+/* ===================
+   price css end
+======================*/
+
+
+#faq {
+    padding-bottom: 80px;
+    background: var(--bg2);
+    position: relative;
+}
+
+#faq header h1::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #222;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+
+#faq header h1::before{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #290a51;
+    position: absolute;
+    left: 0;
+    top: 82px;
+}
+
+#faq header h1{
+    margin-top: 100px;
+    background:linear-gradient(to top, #e7b030 0%, #f79c42 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+      position: relative;
+}
+
+#faq .accordion{
+    padding-top: 70px;
+    margin-left: 25px;
+}
+
+#faq  .accordion .accordion-item{
+    margin-bottom: 10px;
+}
+#faq  .accordion .accordion-item:last-of-type{
+    margin-bottom: 0;
+}
+
+#faq .accordion .accordion-item{
+    background: none !important; 
+    padding-top: 60px !important;
+    padding: 5px 0px !important;  
+}
+
+#faq .accordion button{
+    background: none !important; 
+    position: relative;
+}
+
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+
+#faq .accordion .accordion-button i{
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+#faq .accordion .accordion-button::after{
+    display: none;
+}
+
+#faq  .accordion .accordion-item .accordion-body p{
+    margin-right: 78px;
+    margin-left: 0;
+    line-height: 26px;
+}
+
+.border{
+    border:1px solid #c59628 !important; 
+}
+
+#faq .tournament-time h5{
+    padding-top: 80px !important;
+}
+
+#faq .tournament-time .remaining-time{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+}
+
+#faq .tournament-time .remaining-time .border1{
+    border:1px solid #c59628 !important; 
+    height: 70px !important;
+    width: 70px !important;
+    margin-right: 30px;
+    background:linear-gradient(to top,  #e7b030 0%, #f79c42 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#faq .tournament-time .remaining-time .border1:last-of-type{
+    margin-right: 0px;
+} 
+
+ #faq #scroll-item{
+   margin-top: 90px;
+   max-height: 300px;  
+}
+
+#faq #scroll-item ul{
+    margin-right:20px !important
+}
+
+#faq #scroll-item ul li{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #290a59;
+    box-sizing: border-box;
+} 
+
+#faq .scrollbox-bar{
+    background: #1f004f !important;
+    width: 10px !important;
+    height: 50px !important;
+    right: -60px !important;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#faq .scrollbox-vertical-rail{
+    width: 2px;
+    background: #000 !important;
+    opacity: 1;
+    right: -55px !important;
+}
+/* ===================
+   faq css end
+======================*/
+
+
+
+#subscribtion{
+    background: linear-gradient(#c28efd, #8133f7);
+    padding-bottom: 30px;
+    border-bottom: 4px solid #570dc8;
+}
+
+#subscribtion h1{
+    padding-top: 30px;
+}
+
+#subscribtion form{
+    padding-top: 20px;
+    
+}
+#subscribtion form input{
+    width: 450px;
+    outline: none;
+    border: 1px solid #3a0090;
+    background: transparent;
+    line-height: 40px;
+}
+
+#subscribtion form button{
+    width: 45px;
+    border: 1px solid #3a0090;
+    background: transparent;
+    line-height: 40px;    
+}
+
+#subscribtion form button i{
+    color: #363636;
+}
+
+#subscribtion .payment-item header h1{
+    margin-left: 35px !important;
+}
+
+
+#subscribtion .visacard-image{
+    padding-top: 20px;
+    margin-left: 35px
+}
+
+#subscribtion .visacard-image img{
+    margin-right: 12px;
+}
+/* ======================
+   subscribtion css end
+=========================*/
+
+
+footer{
+    background: var(--bg2);
+    padding-bottom: 22px;
+}
+
+footer header h1{
+    padding-top: 55px;
+}
+
+footer .text p{
+    padding-top: 30px;
+    margin-right: 20px;
+    line-height: 26px;
+}
+
+footer .icon {
+    padding-top: 35px;
+}
+
+footer .icon i{
+    background:linear-gradient(to top, #520eb8 0%, #8128e7 50%);
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    margin-right: 25px;
+    transition: all linear 0.5s;
+    box-shadow: 0px 3px 1px 0px #4b1b83;
+}
+
+footer .icon i:hover{
+    background: var(--hc);
+}
+
+footer .list-item{
+    padding-top: 31px !important;
+}
+
+footer .list-item ul li {
+    padding-bottom: 15px;
+    width: 195px;
+}
+
+footer .list-item ul li a{
+    color: #ffffff;
+}
+
+footer .list-item .item-list-col2{
+    position: absolute;
+    top: 31px;
+    right: 12px;
+}
+
+footer .security-item{
+    padding-top: 31px;
+}
+
+footer .security-item{
+    padding-bottom: 35px !important;
+}
+
+footer .security-item ul li {
+    padding-bottom: 30px;
+}
+
+footer .security-item .image{
+    width: 100px;
+}
+
+footer .security-item .security-image {
+    width: 100px;
+}
+
+footer .security-item p{
+    margin-top: 10px;
+}
+
+footer .footer-text{
+    padding-top: 20px;
+}
+
+/* ======================
+  footer css end
+=========================*/
+
+
+
+.bot-to-top{
+    width: 50px;
+    height: 50px;
+    background: #ff39dc;
+    position: fixed;
+    right: 20px;
+    top: 975px;
+    z-index: 9999;
+    cursor: pointer;
+    display: none;
+}
+
+.bot-to-top i{
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    left: 10px;
+    transform: translateY(-50%);
+    font-size: 40px;
+    color: #fff;
+}
+/* ======================
+  bot-to-top css end
+=========================*/
